@@ -1,0 +1,22 @@
+Recommender System
+------------------
+		
+	This recommender system finds similar users by calculating cosine of the angle between the users.
+	Then it recommends top 3(at most) movies with ratings he may give for those movies for the user entered. 
+		
+Data Set
+--------
+	Here MovieLens 1K data set is taken.
+	* a.data is of the format  ==    user_id  movie_id  rating_by _user  time_stamp
+		user_id ranges from 1 to 943, movie_id ranges from 1 to 1682.
+	* u.item is collection of movie names arranged according to movie_id.
+	
+Run
+---
+	$ scala movie
+	
+	Enter user id
+		**Enter any number between 1 and 943
+	
+
+		
